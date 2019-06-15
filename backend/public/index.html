@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+	<title>POS</title>
+	<script src="assets/assets/js/cdns/jquery.js"></script>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link href="assets/growl.css"></link> -->
+	<script data-require="angular.js@1.6.5" data-semver="1.6.5" src="assets/assets/js/cdns/angular.js"></script>
+	<script data-require="angular-animate@1.6.*" data-semver="1.6.5" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-animate.min.js"></script>
+	<script data-require="angular-touch@1.6.*" data-semver="1.6.2" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-touch.js"></script>
+	<script data-require="ui-bootstrap@*" data-semver="2.4.0" src="https://cdn.rawgit.com/angular-ui/bootstrap/gh-pages/ui-bootstrap-tpls-2.4.0.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.22/angular-ui-router.min.js"></script>
+	<script src="http://code.angularjs.org/1.2.0-rc.3/angular-resource.js"></script>
+	<script src="app.js"></script>
+	<script src="config/router.js"></script>
+	<script src="directives/filereader.directive.js"></script>
+	
+	<!-- <script src="assets/growl.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-sanitize.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-table/1.0.0/ng-table.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ng-table/1.0.0/ng-table.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-growl-2/0.7.9/angular-growl.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-growl-2/0.7.9/angular-growl.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.20.0/select.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.20.0/select.css" />
+</head>
+
+<body data-ng-controller="PosController">
+
+	<div class="col-md-12">
+
+		<div class="row">
+			
+	
+		</div>
+	</div>
+
+	<div growl style="z-index:9999999;"></div>
+	<div ui-view></div>
+</body>
+
+</html>
+<script>
+	$(document).ready(function () {
+		$("#myTab a").click(function (e) {
+			e.preventDefault();
+			$(this).tab('show');
+		});
+	});
+</script>
