@@ -1,4 +1,4 @@
-# HSBC_Challenge
+# HSBC_Challenges
 
 I have used **Node JS and Express Js and MongoDb** to implement the problem.
 
