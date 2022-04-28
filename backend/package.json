@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "api-key-auth": "^0.2.1",
-    "async": "^2.6.2",
+    "async": "^2.6.4",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
     "chalk": "^2.4.2",
