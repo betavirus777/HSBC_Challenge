@@ -22,7 +22,7 @@
     "jade": "~1.11.0",
     "jsonwebtoken": "^8.5.1",
     "method-override": "^3.0.0",
-    "mongoose": "^5.4.17",
+    "mongoose": "^4.13.21",
     "morgan": "^1.9.1",
     "mz": "^2.7.0",
     "passport": "^0.4.0",
